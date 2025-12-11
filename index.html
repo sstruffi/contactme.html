@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact - Sara Truffi</title>
+    
+    <style>
+      nav ul { list-style: none; }
+      nav ul li { display: inline; margin-right: 20px; }
+      nav a {
+        text-decoration: none;
+        font-family: Open Sans, sans-serif;
+        font-size: 18px;
+        color: #d14f9c;
+        padding: 6px 10px;
+      }
+
+      nav a:hover { color: #ffb6db; }
+      nav a:active { color: #aa2f79; }
+      nav a:visited { color: #c6428f; }
+      
+      .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+      
+      .contact-section {
+        margin-top: 100px;
+        font-family: Helvetica, sans-serif;
+      }
+      
+      input {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        width: 800px;
+        padding: 20px;
+        height: 10px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+      }
+      
+      textarea {
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        width: 800px;
+        padding: 20px;
+        min-height: 200px;
+        resize: vertical;
+        border-radius: 10px;
+      }
+      
+      input, textarea {
+         border: 2px solid #ccc;
+      }
+      
+      button {
+        display: block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #d14f9c;
+        border: none;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 10px;
+      }
+      button:hover { background-color: #ff8fc9; }
+      
+      footer {
+        background-color: #d14f9c;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 100px;
+        font-family: Open Sans, sans-serif;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="work.html">Portfolio</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="contactme.html">Contact Me</a></li>
+      </ul>
+    </nav>
+      <div class="contact-section">
+      <h1>Contact Me</h1>
+      <form action="mailto:sstruffi@uwaterloo.ca" method="GET" enctype="text/plain">
+        <input type="text" name="Name" placeholder="Your Name">
+        <input type="email" name="Email" placeholder="Your Email">
+        <textarea name="Message" placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+        </form>
+          <p>Visit my LinkedIn 
+            <a href="https://ca.linkedin.com/in/sara-truffi-40764730a" target="_blank">click here!</a></p>
+    </div>
+    </div>
+    <footer>@ 2025 Sara Truffi - All Rights Reserved</footer>
+  </body>
+</html>
